@@ -8,7 +8,7 @@ local Camera = workspace.CurrentCamera
 local Lighting = game:GetService("Lighting")
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "YonzCitedz_Project"
+ScreenGui.Name = "Archaes_`78_|_SmithSC"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.DisplayOrder = 100
 pcall(function() ScreenGui.Parent = CoreGui end)
@@ -20,7 +20,7 @@ ToggleButton.Parent = ScreenGui
 ToggleButton.Size = UDim2.new(0, 55, 0, 55)
 ToggleButton.Position = UDim2.new(0.1, 0, 0.2, 0)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-ToggleButton.Text = "A"
+ToggleButton.Text = "S"
 ToggleButton.TextSize = 28
 ToggleButton.Font = Enum.Font.GothamBold
 local ButtonCorner = Instance.new("UICorner")
@@ -453,7 +453,7 @@ local function setupPingUI()
         NameText.TextSize = 14
         NameText.TextColor3 = Color3.fromRGB(255,255,255)
         NameText.TextXAlignment = Enum.TextXAlignment.Left
-        NameText.Text = "Made By : YonzCitedz"
+        NameText.Text = "Made By : Archaes `78"
         NameText.Parent = MainFrame
         local TextGradient = Instance.new("UIGradient")
         TextGradient.Color = ColorSequence.new{
